@@ -1,12 +1,12 @@
 .header {
   background-color: var(--color-secondary);
+  padding: 30px 0 110px 0;
 }
 
 .header-top {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 30px;
 }
 
 /* Logo */
@@ -62,9 +62,6 @@
 
 /* Navbar */
 
-.navbar {
-}
-
 .navbar__list {
   display: flex;
   gap: 42px;
@@ -105,4 +102,84 @@
 .header-action .header-action__signup {
   min-width: 104px;
   height: 44px;
+}
+
+/* ===================== Hero =========================== */
+.header-hero {
+  margin-top: 76px;
+  display: flex;
+  align-items: center;
+}
+
+/* Hero Content */
+.hero-content {
+  width: 44%;
+}
+
+.hero__heading {
+  font-size: var(--font-size-2xl);
+  font-weight: var(--font-weight-md);
+  line-height: var(--line-height-3xl);
+  color: var(--color-while);
+  letter-spacing: -0.02em;
+}
+
+.hero__desc {
+  margin-top: 22px;
+  font-size: var(--font-size-md);
+  font-weight: var(--font-weight-default);
+  line-height: var(--line-height-lg);
+  color: var(--color-geyser);
+}
+
+.hero-cta {
+  margin-top: 38px;
+}
+
+.hero__btn {
+  margin-left: 38px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: var(--color-while);
+  font-size: var(--font-size-md);
+  font-weight: var(--font-weight-xs);
+  line-height: var(--line-height-lg);
+  padding: 0;
+}
+
+.hero-cta .hero__book {
+  font-size: var(--font-size-md);
+  line-height: var(--line-height-lg);
+  font-weight: var(--font-weight-xs);
+}
+
+/* Hero Media */
+
+.hero-media {
+  flex-grow: 1;
+}
+
+.hero__image {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.hero__img {
+  width: 330px;
+  height: 540px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.hero__img:first-child {
+  position: relative;
+  margin-right: -6px;
+}
+
+.hero__img:last-child {
+  width: 210px;
+  height: 410px;
+  border-radius: 0 6px 6px 0;
 }
