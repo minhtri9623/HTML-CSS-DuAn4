@@ -1,0 +1,14 @@
+.section-heading {
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-md);
+  color: var(--color-secondary);
+  line-height: var(--line-height-2xl);
+  letter-spacing: -0.02em;
+}
+
+.section-desc {
+  font-size: var(--font-size-md);
+  font-weight: var(--font-weight-default);
+  color: var(--color-shuttle-gray);
+  line-height: var(--line-height-lg);
+}
