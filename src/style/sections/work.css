@@ -29,10 +29,6 @@
   border-color: var(--color-primary);
 }
 
-.work-item:hover .work-item__learn {
-  color: var(--color-primary);
-}
-
 .work-item__title {
   margin-top: 18px;
   font-size: var(--font-size-lg);
@@ -58,4 +54,8 @@
   background-color: transparent;
   outline: none;
   cursor: pointer;
+}
+
+.work-item__learn:hover {
+  color: var(--color-primary);
 }
