@@ -1,0 +1,41 @@
+.app {
+  margin-top: 170px;
+}
+
+.app-wrapper {
+  background-color: var(--color-primary);
+  display: flex;
+  margin-top: 95px;
+  padding: 76px 70px;
+  position: relative;
+  border-radius: 4px;
+}
+
+.app__img {
+  position: absolute;
+  width: 284px;
+  height: 522px;
+  object-fit: cover;
+  bottom: 0;
+}
+
+.app-content {
+  margin-left: auto;
+}
+
+.app__heading {
+  color: var(--color-while);
+  width: 489px;
+}
+
+.app__desc {
+  margin-top: 18px;
+  width: 586px;
+  color: var(--color-while);
+}
+
+.app__cta {
+  margin-top: 38px;
+  display: flex;
+  gap: 28px;
+}
