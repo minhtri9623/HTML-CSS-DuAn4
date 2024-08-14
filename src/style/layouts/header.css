@@ -102,6 +102,7 @@
 .header-action .header-action__signup {
   min-width: 104px;
   height: 44px;
+  border-radius: 22px;
 }
 
 /* ===================== Hero =========================== */
