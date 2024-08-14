@@ -103,6 +103,9 @@
   min-width: 104px;
   height: 44px;
   border-radius: 22px;
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-xs);
+  line-height: var(--line-height-md);
 }
 
 /* ===================== Hero =========================== */
