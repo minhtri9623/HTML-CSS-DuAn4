@@ -1,0 +1,30 @@
+.appointment {
+  margin-top: 170px;
+}
+
+.appointment-wrapper {
+  padding: 100px 0;
+  background-color: var(--color-alice-blue);
+}
+
+.appointment__heading,
+.appointment__desc {
+  text-align: center;
+}
+
+.appointment__line {
+  width: 136px;
+  height: 2px;
+  background-color: var(--color-primary);
+  margin: 18px auto;
+}
+
+.appointment__desc {
+  width: 617px;
+  margin: 0 auto;
+}
+
+.appointment__btn {
+  display: block;
+  margin: 38px auto 0 auto;
+}
